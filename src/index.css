@@ -1,0 +1,220 @@
+h1 {
+  color: rgb(252, 101, 139);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2022/02/18/17/02/strawberry-7021062_960_720.png);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9629cc2;
+  padding: 0.5em 1em;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  font-size: 2rem;
+  font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5em;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+}
+
+.welcome-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 190px; 
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.welcome{
+  font-family: "Fredoka", sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #f5d38a;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap; 
+  animation: move 9s infinite linear;
+}
+
+@keyframes move {
+  from {
+    left: 180%;
+  }
+  to {
+    left: -180%;
+  }
+}
+
+
+.birthday-box {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #3c7343;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: left;
+  font-family: "Bubblegum Sans", sans-serif;
+}
+
+input {
+  margin: 5px 0 15px 0;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #f5d38a;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #f5d38a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3c7343;
+}
+
+.birthday-box,
+.birthday-list-box {
+  background-color: rgba(255, 255, 255, 0.788);
+  padding: 20px;
+  border: 1px solid #3c7343;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 330px; 
+}
+
+h2 {
+  text-align: center;
+  font-family: "Bubblegum Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.reminder-box {
+  background-color: #f8f8f8c4;
+  padding: 20px;
+  border: 1px solid #3c7343;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 88.8%;
+  height: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.reminder-box h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.reminder-box form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reminder-box label {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.reminder-box input {
+  width: 60%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #f5d38a;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.reminder-box button {
+  background-color: #f5d38a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.reminder-box button:hover {
+  background-color: #3c7343;
+}
+
+.content{
+  flex: 1;
+  min-height: calc(100vh - 50px);
+}
+
+.footer {
+  height: 20px;
+  color: #234628;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
