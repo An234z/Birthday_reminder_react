@@ -1,0 +1,35 @@
+.birthday-box, .birthday-list-box, .reminder-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  label {
+    font-family: "Fredoka", sans-serif;
+  }
+  
+  input {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  button {
+    background-color: #f5d38a;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3c7343;
+  }
+  
