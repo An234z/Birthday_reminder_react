@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import "./Forms.css";
 
-const BirthdayForm = () => {
+const BirthdayForm = (props) => {
   const [name, setName] = useState("");
   const [date, setDate] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Added Birthday:\nName: ${name}\nDate: ${date}`);
+    const newBirthday = {
+      id: Math.random().toString(),
+      name: name,
+      date: date,
+    };
+    props.onAddBirthday(newBirthday);
     setName("");
     setDate("");
   };

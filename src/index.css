@@ -9,14 +9,6 @@
   flex-direction: column;
 }
 
-.container {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 60px;
-}
-
 .footer {
   text-align: center;
   font-size: 12px;
