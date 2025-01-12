@@ -1,0 +1,77 @@
+/* Forms.css */
+.birthday-box, 
+.birthday-list-box, 
+.reminder-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    margin: 20px auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.birthday-box:hover, 
+.birthday-list-box:hover, 
+.reminder-box:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-family: "Fredoka", sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+label {
+    font-family: "Fredoka", sans-serif;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3c7343;
+}
+
+.add-birthday-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+button {
+  background-color: #f5d38a;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+.close {
+    background-color: #f5d38a;
+}
+
+
+button:hover {
+    background-color: #3c7343;
+}
+
+button:active {
+    transform: scale(0.98);
+}
