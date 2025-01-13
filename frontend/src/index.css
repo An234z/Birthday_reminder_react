@@ -5,12 +5,25 @@
   background-repeat: repeat;
   width: auto;
   height: auto;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.birthday-app {
+  flex: 1; 
 }
 
 .footer {
   text-align: center;
   font-size: 12px;
   color: #333;
+  margin-top: auto; 
+  padding: 10px;
 }

@@ -59,10 +59,10 @@ const sendWeeklyReminders = async () => {
             };
 
             await transporter.sendMail(mailOptions);
-            console.log(`📧 Email successfully sent to: ${user.email}`);
+            console.log(`Email successfully sent to: ${user.email}`);
         }
     } catch (error) {
-        console.error("❌ Error sending reminders:", error);
+        console.error("Error sending reminders:", error);
     }
 };
 
